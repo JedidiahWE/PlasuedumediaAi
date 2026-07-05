@@ -2,7 +2,7 @@ import Navbar from "../../components/Navbar/Navbar";
 import Hero from "../../components/Hero/Hero";
 import TrustedBy from "../../components/TrustedBy/TrustedBy";
 import Features from "../../components/Features/features";
-import HowItWorks from "../../components/howitworks/howItworks";
+import HowItWorks from "../../components/howitworks/howitworks";
 import Services from "../../components/Services/Services";
 import Stats from "../../components/Stats/Stats";
 import Testimonials from "../../components/Testimonials/Testimonials";
