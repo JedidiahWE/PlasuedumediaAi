@@ -1,6 +1,6 @@
 import Navbar from "../../components/Navbar/Navbar";
 import Hero from "../../components/Hero/Hero";
-import TrustedBy from "../../components/trustedby/trustedby";
+import TrustedBy from "../../components/TrustedBy/TrustedBy";
 import Features from "../../components/features/features";
 import HowItWorks from "../../components/howitworks/HowItWorks";
 import Services from "../../components/Services/Services";
