@@ -1,5 +1,5 @@
 
-import { Client } from "magic-hour";
+import { Client } from './magic-hour.js';
 import {
   generateLectureNotes,
   generateQuiz,
