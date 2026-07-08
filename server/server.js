@@ -27,9 +27,10 @@ connectDB();
 
 const app = express();
 
-app.use(cors());
-app.use(express.json());
-
+app.use(cors({
+  origin: ["https://plasuedumediaai.netlify.app", "http://localhost:5173"], 
+  credentials: true
+}));
 app.get("/", (req, res) => {
   res.json({
     message: "EduMedia AI Backend Running Successfully 🚀",
