@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 import { generateImage } from "../Service/imageServices.js";
 import { Client } from "magic-hour";
+=======
+
+>>>>>>> fe73a0e1db518fb62ec168e72f2bef2041ae5f73
 import {
   generateLectureNotes,
   generateQuiz,
