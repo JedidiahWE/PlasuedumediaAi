@@ -1,4 +1,4 @@
-import { generateImage } from "../Services/imageServices.js";
+import { generateImage } from "../Service/imageServices.js";
 import { Client } from "magic-hour";
 import {
   generateLectureNotes,
