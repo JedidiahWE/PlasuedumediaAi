@@ -2,17 +2,22 @@ import axios from "axios";
 
 const api = axios.create({
   baseURL: "https://plasuedumediaai.onrender.com/api",
-
-api.interceptors.request.use((config) => {
-
-  const token = localStorage.getItem("token");
-
-  if (token) {
-    config.headers.Authorization = `Bearer ${token}`;
+  headers: {
+    "Content-Type": "application/json"
   }
-
-  return config;
-
 });
+
+api.interceptors.request.use(
+  (config) => {
+    const token = localStorage.getItem("token");
+    if (token) {
+      config.headers.Authorization = `Bearer ${token}`;
+    }
+    return config;
+  },
+  (error) => {
+    return Promise.reject(error);
+  }
+);
 
 export default api;
