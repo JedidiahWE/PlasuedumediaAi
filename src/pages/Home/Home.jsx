@@ -8,7 +8,7 @@ import Stats from "../../components/Stats/Stats";
 import Testimonials from "../../components/Testimonials/Testimonials";
 import CTA from "../../components/CTA/CTA";
 import Footer from "../../components/Footer/Footer";
-import HowItWorks from "../../components/HowItWorks/HowITWorks";
+
 
 
 const Home = () => {
