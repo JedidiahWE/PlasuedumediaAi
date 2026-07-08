@@ -1,8 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://plasuedumediaai.onrender.com",
-});
+  baseURL: "https://plasuedumediaai.onrender.com/api",
 
 api.interceptors.request.use((config) => {
 
