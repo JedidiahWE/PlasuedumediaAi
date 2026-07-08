@@ -28,7 +28,11 @@ connectDB();
 const app = express();
 
 app.use(cors({
-  origin: ["https://plasuedumediaai.netlify.app", "http://localhost:5173"], 
+  origin: [
+    "https://projectedumediaai.netlify.app",
+    "https://plasuedumediaai.netlify.app", 
+    "http://localhost:5173"
+  ], 
   credentials: true
 }));
 app.get("/", (req, res) => {
