@@ -17,7 +17,6 @@ const Home = () => {
       <Hero />
       <TrustedBy />
       <Features />
-      <HowItWorks />
       <Services />
       <Stats />
       <Testimonials />
